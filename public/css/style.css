@@ -1,0 +1,87 @@
+body {
+    background-color: #52057b;
+    padding-bottom: 10em;
+}
+a {
+    background-color: burlywood;
+}
+.view-video{
+    /* margin: 5px; */
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #892cdc;
+    border: 0;
+}
+.video-card{
+    height: 35em;
+    border-radius: 0.5em;
+    background-color: black;
+}
+
+.video-card-div{
+    border-radius: 1em;
+}
+.video-img{
+    border-radius: 0.5em;
+}
+
+.search-input{
+    width: 90%;
+    height: 2em;
+    font-size: 1.5em;
+    padding-left: 1em;
+    border-radius: 0.4em;
+    border: 0px;
+    background-color: #bc6ff1;
+    color: #000000;
+}
+.search-input::placeholder{
+    color: #444444;
+    font-weight: normal;
+}
+.search-button{
+    width: 9%;
+    height: 2em;
+    font-size: 1.5em;
+    border-radius: 0.4em;
+    border: 0px;
+    background-color: #892cdc;
+}
+.video-detail{
+    color: whitesmoke;
+    height: 15em;
+    overflow: hidden;
+    text-overflow: clip;
+}
+.video-title{
+    color: whitesmoke;
+    height: 3.5em;
+    overflow: hidden;
+    text-overflow: clip;
+}
+.video-desc{
+    color: whitesmoke;
+    height: 9em;
+    overflow: hidden;
+    text-overflow: clip;
+}
+.sticky-top{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 50px;
+    /* font-size: 20px; */
+}
+
+.search-layout{
+    /* background-color: #892cdc; */
+    margin-top: 10em;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.heading{
+    padding-top: 1em;
+    font-weight: bold;
+}
